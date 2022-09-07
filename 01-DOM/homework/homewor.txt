@@ -1,0 +1,6 @@
+* DOM
+Document Object Model -> es la representación del código HTML y XML de una manera estructurada en objetos y nodos para facilitar la interacción en su estructura, estilo y contenido por parte de JS. 
+* DOM element selectors
+Los selectores de elementos son herramientas que permiten traer partes del codigo HTML para modificarlo o verlo.
+* DOM events
+Los events son cosas que pueden pasar en la interacción del usuario con la web y que a traves de los events listeners JS puede realizar acciones sobre esos eventos. Para que eso sea posible es necesario que exista el evento y que hayan events listeners, luego sobre ese event target (el evento ya ocurrido) correrá el código js que hayamos planteado.
