@@ -1,1 +1,33 @@
 // Mixins acá
+.flex (@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    // Cómo organizamos el contenido
+    justify-content: @justify;
+    //Cómo organizamos los items
+    align-items: @align;
+}
+
+.round-image (@radius) {
+    border-radius: @radius;
+}
+
+.btn(@color, @background, @border){
+    font-size: 20px;
+    font-weight: 300;
+    background-color: @background;
+    color: @color;
+    border-radius: @border;
+    border-color: @color;
+    display: inline;
+
+    padding: 10px;
+    cursor: pointer;
+
+    //El & funciona como un this, &:hover sería lo mismo que decir btn:hover{} - Estilos cuando pasas el mouse por arriba.
+    &:hover{
+        background-color: @color;
+        color: @background;
+        border: 1px solid black;
+    }
+}

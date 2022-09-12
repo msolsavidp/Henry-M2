@@ -1,0 +1,8 @@
+	* Framework
+    Es un marco de trabajo que permite trabajar con herramientas de programación, front-end o back-end, de una manera más simple, premitiendo reutilizar codigo y brindando algunas herramientas extra sobre el lenguaje que trabaja.
+
+	* Preprocesador
+    Un preprocesador es un programa que tiene sintaxis propia pero que luego se traduce a CSS en el navegador para que lo compile y renderice. Los preprocesadores facilitan la escritura de CSS brindando también otras herramientas.
+
+	* Responsive website
+    Un website responsivo, es una página que es sensible al cambio de tamaño del display. Que cambia y se adecua a lo que queremos según el tamaño de pantalla. Mejorando así la experiencia del usuario, la estética y la funcionalidad.
