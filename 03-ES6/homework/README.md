@@ -44,9 +44,12 @@ Cuando usamos la función `$`, los siguientes pasos ocurren:
 Estas llamadas de funciones ya estan conectadas para vos, i.e., el flow esta establecido. Tu trabajo es hacer que cada función realmente funcione.
 
 ### Tips
-
+!!!!!!!!!!
+//.classList, nos devolverá un array (no es exactamente un array, sino un DOMTokenList) de clases CSS de dicho elemento. Si quieres convertirlo a un array real, //utiliza Array.from() o desestructuración con [...div.classList].
 - `classList`, `className`, `tagName` y `id`: Estos son las 4 propiedades de los elementos del DOM que vas a necesitar cuando matchees los elementos en el tree.
 - `.children`: Cada elemento en el DOM (incluyendo document.body) tienen una propiedad `children` que es un array-like object de todos los children de ese elemento. Vas a necesitar esto mientras traversamos el arbol.
+//En primer lugar, tenemos la propiedad children que nos ofrece un  con una lista de elementos HTML hijos. Podríamos acceder a cualquier hijo utilizando los corchetes de array y seguir utilizando otras propiedades en el hijo seleccionado.
+
 - Podes chequear otras utilidades utiles [aquí](https://developer.mozilla.org/en-US/docs/Web/API/Node)
 
 #### Chrome Web Tools
